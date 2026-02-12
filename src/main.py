@@ -7,7 +7,7 @@ app = typer.Typer()
 
 @app.command()
 def add(amount: float, category: str, description: str, type: str = "EXPENSE"):
-    """Dodaj nową transakcję. Opcjonalnie --type INCOME"""
+    """Dodaj nową transakcję"""
     t = Transaction(amount, category, description, type.upper())
     save_transaction(t)
     print_success(f"Dodano: {description} ({amount} PLN)")
