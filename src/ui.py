@@ -42,7 +42,7 @@ def print_transactions(transactions):
     for t in transactions:
         amount = t['amount']
         if t['type'] == 'EXPENSE':
-            # Styl dla wydatku (różowy pastel) .
+            # Styl dla wydatku (różowy pastel)
             color_tag = "warning"
             type_icon = "📉"
             total -= amount
