@@ -6,7 +6,7 @@ from rich import box
 
 # Definiujemy "Pastel Blue Theme"
 custom_theme = Theme({
-    "info": "sky_blue3",
+    "info": "sky_blue2",
     "warning": "plum2",      # Pastelowy różowy dla ostrzeżeń/wydatków
     "success": "spring_green2", # Miętowy dla sukcesów
     "header": "dodger_blue2 bold",
