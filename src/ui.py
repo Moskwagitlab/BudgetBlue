@@ -16,7 +16,7 @@ custom_theme = Theme({
 console = Console(theme=custom_theme)
 
 def print_banner():
-    # Emotka diamentu i niebieski panel
+    # niebieski panel
     console.print(Panel(
         "[header]💎  BudgetBlue Manager  💎[/header]", 
         expand=False, 
