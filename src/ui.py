@@ -29,7 +29,7 @@ def print_transactions(transactions):
         console.print(Panel("☁️  Brak transakcji w bazie! Dodaj coś.", border_style="warning"))
         return
 
-    # Tworzymy tabelkę w stylu "Rounded" (zaokrąglone rogi)
+    # TABELKA w stylu "Rounded" (zaokrąglone rogi)
     table = Table(title="[header]Historia Operacji[/header]", box=box.ROUNDED, border_style="border")
     
     table.add_column("Data 📅", style="dim cyan", no_wrap=True)
