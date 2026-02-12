@@ -13,6 +13,7 @@ def add(amount: float, category: str, description: str, type: str = "EXPENSE"):
     save_transaction(t)
     print_success(f"Dodano: {description} ({amount} PLN)")
 
+#wyswietlanie
 @app.command()
 def list():
     """Wyświetl niebieską tabelę"""
