@@ -5,6 +5,7 @@ from .ui import print_transactions, print_banner, print_success, console
 
 app = typer.Typer()
 
+#transakcja
 @app.command()
 def add(amount: float, category: str, description: str, type: str = "EXPENSE"):
     """Dodaj nową transakcję"""
