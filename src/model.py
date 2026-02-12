@@ -6,5 +6,5 @@ class Transaction:
     amount: float
     category: str
     description: str
-    type: str  # "INCOME" lub "EXPENSE"
+    type: str  
     date: str = datetime.now().strftime("%Y-%m-%d %H:%M")
