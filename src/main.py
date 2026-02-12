@@ -14,7 +14,7 @@ def add(amount: float, category: str, description: str, type: str = "EXPENSE"):
 
 @app.command()
 def list():
-    """Wyświetl piękną niebieską tabelę"""
+    """Wyświetl niebieską tabelę"""
     print_banner()
     data = load_transactions()
     print_transactions(data)
