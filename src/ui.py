@@ -4,7 +4,7 @@ from rich.panel import Panel
 from rich.theme import Theme
 from rich import box
 
-# Definiujemy Twój "Pastel Blue Theme"
+# Definiujemy "Pastel Blue Theme"
 custom_theme = Theme({
     "info": "sky_blue2",
     "warning": "plum2",      # Pastelowy różowy dla ostrzeżeń/wydatków
