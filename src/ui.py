@@ -64,7 +64,7 @@ def print_transactions(transactions):
 
     console.print(table)
     
-    # Podsumowanie
+    # Podsumowanie [stan konta]
     saldo_color = "success" if total >= 0 else "warning"
     console.print(Panel(
         f"Stan konta: [{saldo_color} bold]{total:.2f} PLN[/{saldo_color} bold]", 
