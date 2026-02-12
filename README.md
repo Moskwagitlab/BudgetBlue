@@ -1,3 +1,3 @@
 # BudgetBlue
 Autor: Adam Moskwa 
-ZTechniki Efektywnego Programowania
+Techniki Efektywnego Programowania
